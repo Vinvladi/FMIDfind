@@ -20,4 +20,4 @@
 |  Представитель игроков  | 2002060004 |
 
 
-![This is an image](https://imgur.com/VCS9VL2)
+![https://imgur.com/VCS9VL2]((https://imgur.com/gallery/VCS9VL2))
