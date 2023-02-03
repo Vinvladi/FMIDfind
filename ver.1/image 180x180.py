@@ -1,32 +1,30 @@
 from PIL import Image, ImageDraw
-from pathlib import Path
+import png
 
-im = Image.open('001.png') #считываем изображение 1
-width = im.size[0]
-height = im.size[1]
-if width > height:
-    im_crop = im.crop((0, 0, height, height))
+width01 = 180
+height01 = 180
+image000 = Image.new(mode="RGBA", size=(width01, height01), color=(255, 255, 255))
+
+
+image001 = Image.open('001.png')  # считываем изображение 1 (основное)
+width = image001.size[0]  # считываем ее ширину(длину)
+height = image001.size[1]  # считываем ее высоту
+if width > height:  # длина выше высоты
+    image001_crop = image001.crop((0, 0, height, height))
 else:
-    im_crop = im.crop((0, 0, width, width))
+    image001_crop = image001.crop((0, 0, width, width))
+image001_crop = image001_crop.resize((180, 180))  # по итогу у нас остается изображение с размерами 180 на 180
 
-im_crop = im_crop.resize((180, 180))
+image001_crop.save('002.png', quality=100)
 
-layerw = Image.open("layer3.png")
-img = img.convert("RGBA")
+mask_im = Image.new("RGBA", image000.size, 0)
+draw = ImageDraw.Draw(mask_im)
+draw.ellipse((2, 2, 176, 176), fill=0)
+mask_im.save('mask_circle.png', quality=100)
 
-im_crop.save('002.jpg', quality=100)
+image000.paste(image001_crop, (0, 0), mask_im)
+image000.save('gotovo.png', quality=100)
 
-
-
-img.putdata(newData)
-img.save("mod_img1.png", "PNG")
-
-
-im1 = Image.open('fon.jpg')
-im2 = Image.open('guido-van-rossum.jpg')
-
-im1.paste(im2)
-im1.save('fon_pillow_paste.jpg', quality=95)
-
-im1.close()
-im2.close()
+image000.close()
+image001_crop.close()
+mask_im.close()
