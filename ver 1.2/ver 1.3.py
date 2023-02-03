@@ -5,8 +5,8 @@ im2 = Image.open('layer3.png').convert("RGBA")
 
 mask_im = Image.new("L", im1.size, 255)
 draw = ImageDraw.Draw(mask_im)
-draw.ellipse((3, 3, 172, 172), fill=0)
-mask_im.save('mask_circle.jpg', quality=100) # в режиме 95 много белых кругов, тогда как в режиме 100 нет белых кругов
+draw.ellipse((7, 7, 169, 169), fill=0)
+mask_im.save('mask_circle.jpg', quality=100)  # в режиме 95 много белых кругов, тогда как в режиме 100 нет белых кругов
 
 im0 = Image.open('mask_circle.jpg').convert("L")
 
