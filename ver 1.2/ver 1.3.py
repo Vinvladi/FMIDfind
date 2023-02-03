@@ -1,6 +1,17 @@
 from PIL import Image, ImageDraw
 
-im1 = Image.open('002.png').convert("RGBA")
+im1 = Image.open('007.png').convert("RGBA")
+width = im1.size[0]  # считываем ее ширину(длину)
+height = im1.size[1]  # считываем ее высоту
+if width > height:  # длина выше высоты
+    image001_crop = im1.crop((0, 0, height, height))
+else:
+    image001_crop = im1.crop((0, 0, width, width))
+image001_crop = image001_crop.resize((180, 180))  # по итогу у нас остается изображение с размерами 180 на 180
+
+image001_crop.save('200.png', quality=100)
+im1 = image001_crop
+
 im2 = Image.open('layer3.png').convert("RGBA")
 
 mask_im = Image.new("L", im1.size, 255)
@@ -30,7 +41,7 @@ img3.close()
 im4 = Image.open('ultra.png').convert("RGBA")
 
 im4.paste(im2, (0,0), im2)
-im4.save('dark10.png', quality=100)
+im4.save('dark11.png', quality=100)
 
 
 im1.close()
