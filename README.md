@@ -20,4 +20,4 @@
 |  Представитель игроков  | 2002060004 |
 
 
-![Alt-текст](https://imgur.com/a/iJV15Zt "Орк")
+![This is an image](https://imgur.com/VCS9VL2)
