@@ -28,8 +28,8 @@
 
 https://i.imgur.com/oC886Nj.png
 
-| Ver 1.2                                           | Ver 1.3                                            | Ver 1.4a                                                    |
-|---------------------------------------------------|----------------------------------------------------|-------------------------------------------------------------|
-| ![link](https://i.imgur.com/VCS9VL2.png 'v.1.4')  | ![link](https://i.imgur.com/DURaKvY.png 'v.1.3')   | ![link](https://i.imgur.com/oC886Nj.png '(4, 4, 170, 170)') |
-| Ver 1.4b (6, 6, 170, 170)                         | Ver 1.4c (6, 6, 169, 169)                          | Ver 1.4d (7, 7, 169, 169)                                                   |
-| ![link](https://i.imgur.com/DVPPBiH.png 'v.1.4b') | ![link](https://i.imgur.com/HwdHGU1.png 'v.1.4.c') | ![link](https://i.imgur.com/FI43NsO.png 'v.1.4a')           |
+| Ver 1.2                                           | Ver 1.3                                            | Ver 1.4a (4,4,170,170)                            |
+|---------------------------------------------------|----------------------------------------------------|---------------------------------------------------|
+| ![link](https://i.imgur.com/VCS9VL2.png 'v.1.2')  | ![link](https://i.imgur.com/DURaKvY.png 'v.1.3')   | ![link](https://i.imgur.com/oC886Nj.png 'v.1.4a') |
+| Ver 1.4b(6,6,170,170)                             | Ver 1.4c(6,6,169,169)                              | Ver 1.4d(7,7,169,169)                             |
+| ![link](https://i.imgur.com/DVPPBiH.png 'v.1.4b') | ![link](https://i.imgur.com/HwdHGU1.png 'v.1.4.c') | ![link](https://i.imgur.com/FI43NsO.png 'v.1.4d') |
