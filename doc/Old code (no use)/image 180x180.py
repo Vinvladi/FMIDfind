@@ -6,7 +6,7 @@ height01 = 180
 image000 = Image.new(mode="RGBA", size=(width01, height01), color=(255, 255, 255))
 
 
-image001 = Image.open('001.png')  # считываем изображение 1 (основное)
+image001 = Image.open('../../ver.1/001.png')  # считываем изображение 1 (основное)
 width = image001.size[0]  # считываем ее ширину(длину)
 height = image001.size[1]  # считываем ее высоту
 if width > height:  # длина выше высоты
