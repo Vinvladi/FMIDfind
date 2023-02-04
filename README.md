@@ -26,8 +26,8 @@
 
 Версия 1.2 как мы видим еще присутствуют большое количество белых точек (Переделать фото в формат jpg аз такая херня). Некоторые версии 1.4a и 1.5 для png почему-то режутся, когда я их добавляю.
 
-| Ver 1.2                                           | Ver 1.3                                           | Ver 1.4b                                          |   
-|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|
-| ![link](https://i.imgur.com/VCS9VL2.png 'v.1.2')  | ![b](https://i.imgur.com/DURaKvY.png 'v.1.3')     | ![link](https://i.imgur.com/DVPPBiH.png 'v.1.4b') |
-| Ver 1.4c                                          | Ver 1.4d                                          | Ver 1.5                                           | 
-| ![link](https://i.imgur.com/HwdHGU1.png 'v.1.4c') | ![link](https://i.imgur.com/FI43NsO.png 'v.1.4d') | ![link](https://i.imgur.com/Xzuqcsz.png 'v.1.5')  |  
+| Ver 1.2                                                                                      | Ver 1.3                                                                                      | Ver 1.4a                                                                                     | Ver 1.4b |   
+|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| ![link](https://raw.githubusercontent.com/Vinvladi/FMIDfind/main/doc/png/1.2.png 'v.1.2')    | ![b](https://raw.githubusercontent.com/Vinvladi/FMIDfind/main/doc/png/1.3.png 'v.1.3')       | ![link](https://raw.githubusercontent.com/Vinvladi/FMIDfind/main/doc/png/1.4.a.png 'v.1.4b') | ![link](https://raw.githubusercontent.com/Vinvladi/FMIDfind/main/doc/png/1.4.b.png)            |
+| Ver 1.4c                                                                                     | Ver 1.4d                                                                                     | Ver 1.5                                                                                      | Ver 1.5
+| ![link](https://raw.githubusercontent.com/Vinvladi/FMIDfind/main/doc/png/1.4.c.png 'v.1.4c') | ![link](https://raw.githubusercontent.com/Vinvladi/FMIDfind/main/doc/png/1.4.d.png 'v.1.4d') | ![link](https://raw.githubusercontent.com/Vinvladi/FMIDfind/main/doc/png/1.5.0.png 'v.1.5')  |  ![link](https://raw.githubusercontent.com/Vinvladi/FMIDfind/main/doc/png/1.5.1.png)   
