@@ -1,13 +1,13 @@
 from PIL import Image, ImageDraw, ImageFont
 
-for a in range(2002000001,2002200001,1):
+for a in range(2002000001,2002000002,1):
     name = str(a) + str('.jpg')
-    img = Image.new('RGB', (180, 180), 'black')
+    img = Image.new('L', (180, 180), 'black') # 24 bit color - RGB / RGBA / L / 1
     font = ImageFont.truetype("arial.ttf", size=36)
     idraw = ImageDraw.Draw(img)
-    idraw.text((40, 20), name[0:4], font=font)
-    idraw.text((40, 70), name[4:7], font=font)
-    idraw.text((40, 120), name[7:10], font=font)
+    idraw.text((40, 20), name[0:4], font=font, fill=255) # fill - параметр отвечающий за цвет, fill = 0 - черный / 255 - белый
+    idraw.text((40, 70), name[4:7], font=font, fill=255)
+    idraw.text((40, 120), name[7:10], font=font, fill=255)
     img.save(name)
 
 
